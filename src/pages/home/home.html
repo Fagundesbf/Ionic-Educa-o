@@ -1,0 +1,21 @@
+
+<ion-content padding class="background">
+ <div class="center">
+  <ion-item>
+    <ion-label color="primary" floating>Usúario</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" floating>Senha</ion-label>
+    <ion-input type="password" ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Salvar Senha</ion-label>
+    <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
+  </ion-item>
+  <ion-item>
+    <ion-label>Esqueceu sua Senha?</ion-label>
+  </ion-item>
+  <button ion-button round block (click)="Acessar()">Acessar</button>
+</div>
+</ion-content>
